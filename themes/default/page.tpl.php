@@ -11,7 +11,7 @@
 	<div id="wrapper">
 		<h1><?php print($title); ?></h1>
                    <div class="container">
-                   <img src="https://explorers.projectmerge.org/assets/images/Banner2.png" alt="https://www.projectmerge.org/" style="width:100%">
+                   <a href="https://www.projectmerge.org/"><img src="https://explorers.projectmerge.org/assets/images/Banner2.png" alt="ProjectMergeBanner" style="width:100%"></a>
 			<?php print($content); ?>
 		</div>
 		<?php if(get_setting('donation_address')) { ?>
