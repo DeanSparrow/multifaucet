@@ -10,7 +10,8 @@
 <body>
 	<div id="wrapper">
 		<h1><?php print($title); ?></h1>
-		<div class="container">
+                   <div class="container">
+                   <img src="https://explorers.projectmerge.org/assets/images/Banner2.png" alt="https://www.projectmerge.org/" style="width:100%">
 			<?php print($content); ?>
 		</div>
 		<?php if(get_setting('donation_address')) { ?>
@@ -21,7 +22,7 @@
 		<?php } ?>
 		<div id="poweredby">
 			<!-- Before removing this link please see README -->
-			<a href="http://cur.lv/99zcp" title="<?php echo APPLICATION_WEBSITE; ?>" target="_blank">
+			<a href="http://www.unibia.net/crypto-faucet" title="<?php echo APPLICATION_WEBSITE; ?>" target="_blank">
 				<?php echo APPLICATION_NAME . ' ' . APPLICATION_VERSION; ?>
 			</a>
 		</div>

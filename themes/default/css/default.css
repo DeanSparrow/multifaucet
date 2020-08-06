@@ -10,7 +10,7 @@ html,body{
 }
 
 body{
-	background-color: #ddd;
+	background-color: #E96C16;
 	font-size: 62.5%;
 	font-family: 'Verdana','Arial',sans-serif;
 	overflow: hidden;
@@ -125,7 +125,8 @@ h1{
 }
 
 p{
-	line-height: 1.5em;
+	line-height: 2em;
+        color: #fff;
 }
 .error-message{
 	color: #f00;
@@ -163,7 +164,7 @@ p.big{
 	padding: 0 1.2em;
 }
 #poweredby a{
-	color: #999000;
+	color: #0000FF;
 }
 
 img.droplet{
