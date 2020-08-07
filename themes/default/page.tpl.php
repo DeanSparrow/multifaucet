@@ -5,9 +5,15 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
 	<meta name="author" content="tuaris" />
 	<link rel="stylesheet" href="<?php echo theme_dir(); ?>css/default.css" type="text/css" />
-	<title><?php print($title); ?></title>
+
+<title><?php print($title); ?></title>
 </head>
 <body>
+<div class="header" style="background-color:black;">
+<center><p>My supercool header</p></center>
+
+</div> 
+
 	<div id="wrapper">
 		<h1><?php print($title); ?></h1>
                    <div class="container">
@@ -16,7 +22,7 @@
 		</div>
 		<?php if(get_setting('donation_address')) { ?>
 		<div class="container">
-			<p><?php print translate('faucet_donate'); ?>:</p>
+			<p1><?php print translate('faucet_donate'); ?>:</p1>
 			<p class="big"><?php print(get_setting('donation_address')); ?></p>
 		</div>
 		<?php } ?>
@@ -37,5 +43,7 @@
 		<img src="<?php echo theme_dir(); ?>images/droplet.png" class="droplet" alt=""/>
 		<img src="<?php echo theme_dir(); ?>images/droplet.png" class="droplet" alt=""/>
 	</div>
+
+
 </body>
 </html>
