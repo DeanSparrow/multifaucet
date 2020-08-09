@@ -9,14 +9,9 @@
 <title><?php print($title); ?></title>
 </head>
 <body>
-<div class="header" style="background-color:black;">
-<center><p>My supercool header</p></center>
-
-</div> 
-
 	<div id="wrapper">
-		<h1><?php print($title); ?></h1>
                    <div class="container">
+                   <h3><center><?php print($title); ?></center></h3> 
                    <a href="https://www.projectmerge.org/"><img src="https://explorers.projectmerge.org/assets/images/Banner2.png" alt="ProjectMergeBanner" style="width:100%"></a>
 			<?php print($content); ?>
 		</div>
