@@ -34,9 +34,9 @@
 			<p><?php print($stats['number_of_payouts']); ?> <?php print translate('payouts'); ?></p>
 		</div>
 		<?php } ?>
-		<img src="<?php echo theme_dir(); ?>images/droplet.png" class="droplet" alt=""/>
-		<img src="<?php echo theme_dir(); ?>images/droplet.png" class="droplet" alt=""/>
-		<img src="<?php echo theme_dir(); ?>images/droplet.png" class="droplet" alt=""/>
+		<img src="<?php echo theme_dir(); ?>images/droplet.png" class="droplet" alt=""/ style="width: 20%">
+		<img src="<?php echo theme_dir(); ?>images/droplet.png" class="droplet" alt=""/ style="width: 20%">
+		<img src="<?php echo theme_dir(); ?>images/droplet.png" class="droplet" alt=""/ style="width: 20%">
 	</div>
 
 
